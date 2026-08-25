@@ -76,7 +76,7 @@ def main() -> None:
     print("FEED:", msg)
     if args.publish:
         print("\nAPPROVAL-GATED publish command (run it yourself):\n"
-              '.venv/bin/python ~/Flop/technocore_agent.py say lobby "' + msg + '"')
+              ".venv/bin/python ~/Flop/technocore_agent.py say lobby '" + msg + "'")
 
 
 if __name__ == "__main__":
